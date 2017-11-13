@@ -8,7 +8,7 @@
 <header class="main-header">
 <nav class="main-navigation">
 <a class="main-header-logo">
-<img src="img/Logo.png"  alt="Логотип City of Sedona">
+<img src="img/Logo.png"  width="138" height="70" alt="Логотип City of Sedona">
 </a>
 <ul class="site-navigation">
 <li><a href="info.html">Информация</a></li>
@@ -22,7 +22,7 @@
 <section class="picture">
 	<div class="mountain">
 		
-		<img src="img/Point.png" alt="Надпись">
+		<img src="img/Point.png"   width="458" height="352" alt="Надпись">
 	</div>
 </section>
 
@@ -41,7 +41,7 @@
 	Седона - не аттракцион для туристов,<br>
 	там течет своя жизнь
 </p>
-<img src="img/Features1.jpg"  alt="Дом">
+<img src="img/Features1.jpg"  width="800" height="401" alt="Дом">
 </section>
 
 <section class="features-list-2">
@@ -70,7 +70,7 @@
 <p>№2</p>
 <p>Да, по нему можно пройти! Если конечно<br>
 вы осмелитесь</p>
-<img src="img/Features2.jpg"  alt="Природа">
+<img src="img/Features2.jpg"  width="800" height="400" alt="Природа">
 </section>
 
 <section class="features-item-4">
@@ -106,10 +106,39 @@
 	и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 </section>
 <section class="search">
-	<button class="buttom-search">Поиск гостиниц в Седоне</button>
-	<!-- Здесь будет форма-->
+	<button class="buttom-search" type="button">Поиск гостиниц в Седоне</button>
+	<form class="search-form" action="search-hotels-sedona.ru" method="post">
+	<p class="search-item">
+		<label for="search-date-in">Дата заезда:</label>
+<input id="search-date-in" type="text" name="date" value="" placeholder="24 апреля 2017">
+	</p>
+
+
+	<p class="search-item">
+		<label for="search-date-out">Дата выезда:</label>
+<input id="search-date-out" type="text" name="date" value="" placeholder="4 июля 2017">
+	</p>
+
+	<p class="search-item">
+		<label for="count-adult">Взрослые:</label>
+		<button class="plusminus" type="button" >-</button>
+		<input id="count-adult" type="text" name="count" value="" placeholder="2">
+		<button class="plusminus" type="button" >+</button>
+	</p>
+
+		<p class="search-item">
+		<label for="count-child">Дети:</label>
+		<button class="plusminus" type="button" >-</button>
+		<input id="count-child" type="text" name="count" value="" placeholder="0">
+		<button class="plusminus" type="button" >+</button>
+	</p>
+	<button class="button" type="submit">Найти</button>
+</form>
 	<br>
+
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52385.18050598407!2d-111.83015803882583!3d34.85437338102037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1510438577714" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+	<!--Если есть iframe, нужно ли вставлять img на данном этапе?-->
 </section>
 </main>
 <footer class="main-footer">
