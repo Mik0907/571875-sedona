@@ -1,0 +1,447 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans Narrow" , Arial, sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;
+	text-transform: uppercase;
+	background-color: #FFFFFF;
+}
+a
+{
+	text-decoration: none;
+}
+.main-navigation
+{
+	/*color: #000000;*/
+	background-color: #FFFFFF;
+}
+.site-navigation
+{
+	list-style: none;
+}
+.site-navigation a
+{
+	color: #000000;
+}
+.site-navigation a:hover
+{
+	color: #81b3d2;
+}
+.site-navigation a:active
+{
+	color: #000000;
+	opacity: 0.3;
+}
+.picture
+{
+	background-image: url("img/background.jpg");
+	/*background-color: #FFFFFF;*/
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 511px;
+	background-size: cover;
+	padding-top: 75px;
+	box-sizing: border-box;
+}
+
+.mountain
+{
+	width: 455px;
+	height: 350px;
+	margin: auto;
+}
+
+.advantages .p1
+{
+	font-size: 21px;
+	font-weight: bold;
+	text-align: center;
+}
+.advantages  .p2
+{
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: normal;
+	color: #333333;
+
+	text-align: center;
+}
+.features-list-21
+{
+	list-style: none;
+}
+ .features-list-41
+{
+	list-style: none;
+}
+.infrastructure
+{
+	list-style: none;
+}
+.housing
+{
+	list-style: none;
+}
+.features-list-1 .background-blue
+{
+	background-color: #81b3d2;
+}
+.features-list-1 h3
+{
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: bold;
+	color: #FFFFFF;
+
+	text-align: center;
+}
+.features-list-1 p
+{
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: normal;
+	color: #FFFFFF;
+
+	text-align: center;
+}
+.features-list-2
+{
+	background-color: #FFFFFF;
+}
+.features-list-21 h3
+{
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+
+}
+.features-list-21 p
+{
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: normal;
+	color: #333333;
+	text-align: center;
+
+}
+.features-list-3 .background-blue2
+{
+	background-color: #81b3d2;
+}
+.features-list-3 h3
+{
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+}
+.features-list-3 p
+{
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-align: center;
+}
+.features-item-4
+{
+	background-color: #eeeeee;
+}
+.features-list-41 h3
+{
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+}
+.features-list-41 p
+{
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: normal;
+	color: #333333;
+	text-align: center;
+}
+.intersting 
+{
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+.intersting p
+{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #333333;
+	text-align: center;
+}
+.search input
+{
+	font: inherit;
+	background-color: #f2f2f2;
+}
+.search .button-search
+{
+	width: 570px;
+	height: 84px;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #766357;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: auto;
+}
+.button-search :hover
+{
+	background-color: #604e43;
+}
+.button-search:active
+{
+	background-color: #503e33;
+	opacity: 0.3;
+}
+.search input:hover
+{
+	background-color: #ebebeb;
+}
+.search input:active
+{
+	background-color: #ffffff;
+
+}
+
+.search-item button:hover
+{
+ 	color: #000000;
+}
+.search-item button:active
+{
+	color: #81b3d2;
+}
+.search .search-form
+{
+	width: 570px;
+	height: 392px;
+	background-color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 66px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.main-footer
+{
+
+}
+.main-footer .footer-hashtag
+{
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;
+	text-transform: uppercase;
+}
+.footer-social a:hover,
+.footer-social a:focus
+{
+text-decoration: none;
+}
+
+.footer-social ul
+  {
+  	list-style: none;
+  }
+.social-button
+  {
+  	color: #000000;  
+  }
+.footer-copyright
+  {
+  	text-align: center;
+  }
+.footer-copyright .button:hover,
+.footer-copyright .button:focus
+    {
+    	color: #b6b4b5;
+    }
+
+
+.site-navigation-current a
+{
+	color: #766357;
+}
+.filter
+{
+    background-image: url("img/background2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #000000;
+    color: #FFFFFF;
+
+}
+.filter fieldset
+{
+    border: none;
+}
+.filter legend
+{
+    font-size: 16px ;
+    line-height: 21px;
+}
+.filter ul
+{
+    list-style: none;
+    line-height: 21px;
+}
+.filter-input:disabled + label
+{
+    color: #6a6a6a;
+}
+.filter-button
+{
+    
+    color: #ffffff ;
+}
+.filter-button:hover
+{
+    font-weight: normal;
+    background-color: #ffffff;
+    color: #000000;
+}
+.result .found
+{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+
+}
+.result p
+{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    color:#000000; 
+}
+.result .sort
+{
+    list-style: none;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+ .sort a
+{
+    color: #000000;
+    opacity: 0.2;
+    border-bottom: 1px dashed;
+    
+}
+ .sort a:hover
+{
+    color: #81b3d2;
+    opacity: 100;
+}
+ .sort a:active
+{
+    color: #000000;
+    opacity: 100;
+}
+.sort-current a
+{
+    color: #81b3d2;
+   	border-bottom: none;
+   	opacity: 100;
+}
+.hotels-list
+{
+    list-style: none;
+}
+.hotel
+{
+    background-color: #fefefe;
+}
+.hotel a
+{
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+}
+.hotel a:hover
+{
+    color: #81b3d2;
+}
+.hotel a:active
+{
+    color: #000000;
+    opacity: 0.3;
+}
+.hotels-list-character span
+{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #333333;
+    text-transform: uppercase;
+}
+.hotels .button-more
+{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #81b3d2;
+}
+
+.hotels .button-more:hover
+{
+    background-color: #669ec0;
+}
+.hotels .button-more:active
+{
+    background-color: #5496bd;
+    opacity: 0.3;
+}
+.hotels .button-booking
+{
+     font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #766357;
+}
+.hotels .button-booking:hover
+{
+    background-color: #604e43;
+    color: #ffffff;
+}
+.hotels .button-booking:active
+{
+    background-color: #503e33;
+    opacity: 0.3;
+}
+.hotels-list-character .stock
+{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    background-color : #666666; 
+    color: #666666;
+    margin: auto;
+}
