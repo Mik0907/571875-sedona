@@ -38,8 +38,8 @@ a
 }
 .picture
 {
-	background-image: url("img/background.jpg");
-	/*background-color: #FFFFFF;*/
+	background-image: url("../img/background.jpg");
+	background-color: #FFFFFF;
 	background-repeat: no-repeat;
 	background-position: top center;
 	height: 511px;
@@ -284,7 +284,7 @@ text-decoration: none;
 }
 .filter
 {
-    background-image: url("img/background2.jpg");
+    background-image: url("../img/background2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
