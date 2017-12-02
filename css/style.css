@@ -531,7 +531,7 @@ z-indexwebkit-box-sizing: border-box;
 }
 .advantages
 {	
-  height: 217px;
+  min-height: 217px;
 }
 .advantages .p1
 {
@@ -728,17 +728,41 @@ line-height: 1.857;
 	display: flex;
 
 }
-.search-item input
+/*.search-item input
 {
 	margin-left: 167px;
 	position: relative;
 	display: flex;
+	flex-direction: column;
 	
+}*/
+.search-date-in-1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+.search-date-in-1 input
+{
+	width: 347px;
+	margin-left: 22px;
+}
+.search-date-out-1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.search-date-out-1 input
+{
+	width: 347px;
+	margin-left: 18px;
 }
 .search-item-12
 {
 	display: flex;
-	
+	flex-direction: row;	
 }
  .search-item-12 .search-item-1 label
 {
@@ -750,10 +774,13 @@ line-height: 1.857;
 	text-align: left;
 	margin-left: 51px;
 }
+.search-item-1 label
+{
+	margin-left: 54px;
+}
 .search-item-1 input
 {
 	width: 30px;
-	
 }
 .search-item-2 input
 {
@@ -767,11 +794,18 @@ line-height: 1.857;
  	background-color: #81b3d2;
  	text-align: center;
  	margin-left: 60px;
-  
-}
+ 	margin-top: 54px;
+ }
 .map
 {
 	background-image: url("../img/map.jpg");
+	margin: 0;
+	padding: 0;
+	width: 1200px;
+	height: 477px;
+	position: relative;
+	left: -310px;
+	
 }
 .main-footer
 {
@@ -809,4 +843,9 @@ line-height: 1.857;
 .filters .visually-hidden
 {
 	visibility: hidden;
+}
+
+.container .filters
+{
+	height: 73px;
 }
