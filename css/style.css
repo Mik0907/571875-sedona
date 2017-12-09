@@ -346,10 +346,7 @@ a {
 
 }
 
-.footer-copyright .button:hover,
-.footer-copyright .button:focus {
-  color: #b6b4b5;
-}
+
 
 .site-navigation-current a {
   color: #766357;
@@ -896,9 +893,11 @@ input[type="button"]
   border: 0px;
   padding-left: 10px;
 }
+
 input[type="button"]
 {
   background: url("../img/calendar.svg");
+  fill: #cacaca;
   background-repeat: no-repeat; 
   width: 27px;
   height: 23px;
@@ -1045,7 +1044,7 @@ iframe {
   width: 152px;
   list-style: none;
 }
-.calendar-button
+.calendar-div
 {
   color: #cacaca;
 }
@@ -1320,15 +1319,19 @@ input[type="checkbox"]
 .social-button1 {
   color: #000000;
 }
+.logo-button:hover
+{
+  fill: #81b3d2;
+}
+.logo-button:active
+{
+  fill: #bdbbbc;
+}
+
 
 .footer-copyright1 {
   text-align: center;
 }
-
-/*.footer-copyright1 .button-logo:hover,
-.footer-copyright1 .button-logo:focus {
-  fill:  #b6b4b5;
-}*/
 
 .filter-range {
   width: 330px;
