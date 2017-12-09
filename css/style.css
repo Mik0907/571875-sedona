@@ -1,7 +1,7 @@
-body {
+﻿body {
   margin: 0;
   padding: 0;
-  font-family: "PT Sans ", Arial, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
@@ -75,7 +75,7 @@ a {
   min-height: 48px;
   line-height: 1.238;
   z-index: 63;
-  letter-spacing: -0.075em;
+
   padding-right: 5px;
 
 }
@@ -88,7 +88,7 @@ a {
   min-width: 600px;
   height: 1px;
   text-align: center;
-  letter-spacing: -0.05em;
+
   padding-bottom: 25px;
 
   top: -10px;
@@ -123,7 +123,7 @@ a {
   line-height: 21px;
   font-weight: bold;
   color: #FFFFFF;
-  letter-spacing: -0.06em;
+
   text-align: center;
 }
 
@@ -132,7 +132,7 @@ a {
   line-height: 21px;
   font-weight: normal;
   color: #FFFFFF;
-  letter-spacing: -0.055em;
+
   margin-top: 22px;
   width: 280px;
   text-align: center;
@@ -149,7 +149,7 @@ a {
   color: #000000;
   text-align: center;
 
-  letter-spacing: -0.07em;
+
 }
 
 .features-list-21 p {
@@ -159,7 +159,7 @@ a {
   font-weight: normal;
   color: #333333;
   text-align: center;
-  letter-spacing: -0.07em;
+
 }
 
 .features-list-3 .background-blue2 {
@@ -180,7 +180,7 @@ a {
   font-weight: normal;
   color: #FFFFFF;
   text-align: center;
-  letter-spacing: -0.06em;
+
   width: 280px;
   margin-top: 20px;
   margin-right: 35px;
@@ -196,7 +196,7 @@ a {
   font-weight: bold;
   color: #000000;
   text-align: center;
-  letter-spacing: -0.07em;
+
   margin-top: 14px;
   margin-right: -10px;
   z-index: 69;
@@ -209,7 +209,7 @@ a {
   font-weight: normal;
   color: #333333;
   text-align: center;
-  letter-spacing: -0.065em;
+
   margin-top: 23px;
   margin-left: 60px;
   width: 280px;
@@ -234,7 +234,7 @@ a {
 }
 
 .intersting b {
-  letter-spacing: -0.09em;
+
 
 }
 
@@ -244,7 +244,7 @@ a {
   font-weight: normal;
   color: #333333;
   text-align: center;
-  letter-spacing: -0.06em;
+
   margin-top: 17px;
 }
 
@@ -269,21 +269,22 @@ a {
   box-sizing: border-box;
 }
 
-.button-search :hover {
+.button-search:hover {
   background-color: #604e43;
 }
 
 .button-search:active {
   background-color: #503e33;
-  opacity: 0.3;
+  color: rgba(255, 255, 255, 0.3)
 }
 
 .search input:hover {
   background-color: #ebebeb;
 }
 
-.search input:active {
+.search input:focus {
   background-color: #ffffff;
+  border: 2px solid #e5e5e5;
 
 }
 
@@ -342,7 +343,7 @@ a {
 
 .footer-copyright {
   text-align: center;
-  background-image: url("../img/logo-htmlacademy.svg.svg");
+
 }
 
 .footer-copyright .button:hover,
@@ -409,6 +410,21 @@ a {
   color: #000000;
 }
 
+.result img
+{
+  color: #cacaca;
+}
+.button-up-down
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: -60px;
+  width: 30px;
+  height: 20px;
+  margin-top: 30px;
+}
 .result .sort {
   list-style: none;
   font-size: 12px;
@@ -437,6 +453,7 @@ a {
   color: #81b3d2;
   border-bottom: none;
   opacity: 100;
+
 }
 
 .hotels-list {
@@ -472,6 +489,7 @@ a {
   font-weight: normal;
   color: #333333;
   text-transform: uppercase;
+  letter-spacing: -0.05em;
 }
 
 .hotels .button-more {
@@ -480,17 +498,19 @@ a {
   font-weight: bold;
   color: #ffffff;
   background-color: #81b3d2;
-  width: 111px;
+  width: 120px;
+  height: 23px;
   text-align: center;
+  padding-top: 5px;
 }
 
-.hotels .button-more:hover {
+ .button-more:hover {
   background-color: #669ec0;
 }
 
-.hotels .button-more:active {
+ .button-more:active {
   background-color: #5496bd;
-  opacity: 0.3;
+  color: rgba(80, 62, 51, 0.3);
 }
 
 .hotels .button-booking {
@@ -499,8 +519,11 @@ a {
   font-weight: bold;
   color: #ffffff;
   background-color: #766357;
-  width: 111px;
+  width: 140px;
+  height: 23px;
+  padding-top: 5px;
   text-align: center;
+  margin-left: 5px;
 }
 
 .hotels .button-booking:hover {
@@ -510,7 +533,7 @@ a {
 
 .hotels .button-booking:active {
   background-color: #503e33;
-  opacity: 0.3;
+  
 }
 
 .hotels-list-character .stock {
@@ -576,7 +599,7 @@ a {
   display: block;
   width: 20%;
   margin: 12px 0 14px;
-  letter-spacing: -0.04em;
+
 }
 
 .site-navigation-link-left {
@@ -645,6 +668,7 @@ a {
 
 .background-blue {
   width: 400px;
+  min-height: 257px;
   padding: 48px 60px 34px;
   text-align: center;
   box-sizing: border-box;
@@ -713,14 +737,15 @@ a {
 }
 
 .features-item-3 {
-  width: 157px;
+  width: 152px;
   min-height: 40px;
   margin: auto;
-  letter-spacing: -0.06em;
+
 }
 
 .background-blue2 {
   width: 400px;
+  min-height: 257px;
   padding: 48px 60px 34px;
   text-align: center;
   box-sizing: border-box;
@@ -810,7 +835,7 @@ a {
 
 .button-search {
   border: 0px;
-  letter-spacing: -0.07em;
+
 }
 
 .search-form {
@@ -825,7 +850,7 @@ a {
   justify-content: center;
   width: 470px;
   margin-left: 50px;
-  letter-spacing: -0.07em;
+
   margin-top: -5px;
 }
 
@@ -836,14 +861,22 @@ a {
   outline: none;
   border: 0px;
   padding-left: 10px;
-  background-image: url("../img/calendar.svg");
-  background-repeat: no-repeat;
   outline: none;
-  background-position: 95% 50%;
   margin-top: -5px;
-
 }
-
+input[type="button"]
+{
+  background: url("../img/calendar.svg");
+  background-repeat: no-repeat; 
+  width: 27px;
+  height: 23px;
+  display: block;
+  background-position: 0% 50%;
+  color: #cacaca;
+  position: absolute;
+  margin-left: 210px;
+  margin-top: 1px;
+}
 .search-date-out-1 {
   display: flex;
   flex-direction: row;
@@ -851,7 +884,6 @@ a {
   margin-top: 29px;
   width: 480px;
   margin-left: 45px;
-  letter-spacing: -0.07em;
   margin-top: 35px;
 
 }
@@ -863,10 +895,19 @@ a {
   outline: none;
   border: 0px;
   padding-left: 10px;
-  background-image: url("../img/calendar.svg");
-  background-repeat: no-repeat;
-  outline: none;
-  background-position: 95% 50%;
+}
+input[type="button"]
+{
+  background: url("../img/calendar.svg");
+  background-repeat: no-repeat; 
+  width: 27px;
+  height: 23px;
+  display: block;
+  background-position: 0% 50%;
+  color: #cacaca;
+  position: absolute;
+  margin-left: 210px;
+  margin-top: 1px;
 }
 
 .search-date-in-and-out {
@@ -875,7 +916,6 @@ a {
   justify-content: space-between;
 
 }
-
 .search-item-12 {
   display: flex;
   flex-direction: row;
@@ -887,7 +927,7 @@ a {
 
 .search-item-12 label {
   margin-left: 55px;
-  letter-spacing: -0.07em;
+
   margin-top: 5px;
 }
 
@@ -917,6 +957,14 @@ a {
   outline: none;
 }
 
+.count:hover
+{
+  color: black;
+}
+.count:active
+{
+  color:#81b3d2;
+}
 .button-minus-plus-2 {
   display: flex;
   flex-direction: row;
@@ -946,7 +994,16 @@ a {
   font-weight: bold;
 
 }
+.search .button-find:hover
+{
+  background-color: #669ec0;
+}
 
+.search .button-find:active
+{
+  background-color: #5496bd;
+  color: rgba(148,185,210,0.3);
+}
 .map {
   background-image: url("../img/map.jpg");
   height: 585px;
@@ -979,19 +1036,23 @@ iframe {
   width: 137px;
   margin-top: 50px;
   margin-left: 132px;
-  letter-spacing: -0.07em;
+
 }
 
 .footer-social {
   min-height: 52px;
-  margin-left: 256px;
+  margin-left: 100px;
   width: 152px;
   list-style: none;
 }
+.calendar-button
+{
+  color: #cacaca;
+}
 
 .footer-copyright {
-  min-height: 45px;
-  width: 199px;
+  min-height: 55px;
+  width: 250px;
   margin-right: 100px;
   margin-top: 50px;
 }
@@ -1006,7 +1067,7 @@ iframe {
 
 .infrastructure-flex {
 
-  margin-top: 32px;
+  margin-top: 28px;
   margin-left: 60px;
 }
 
@@ -1036,7 +1097,14 @@ iframe {
   margin-left: -230px;
   width: 220px;
 }
-
+input[type="checkbox"]
+{
+  position: absolute; /* Абсолютное позиционирование */
+ 
+ 
+ background-image: url("../img/checkbox-on.svg") no-repeat; /* Фоновый рисунок */
+ cursor: pointer;
+}
 .value {
 
 }
@@ -1049,36 +1117,46 @@ iframe {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  height: 72px;
 }
 
 .result .found {
 
-  width: 116px;
+  width: 126px;
   min-height: 30px;
-  margin-left: -35px;
+  margin-left: -70px;
   margin-top: 31px;
+  
 }
 
 .result p {
 
   height: 20px;
   width: 82px;
-  margin-left: -160px;
+  margin-left: -270px;
   margin-top: 35px;
 
 }
 
-.result .sort-flex {
+.result .sort-flex 
+{
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 238px;
-  margin-left: -220px;
+  width: 240px;
+  margin-left: -295px;
   margin-top: 24px;
 
 }
-
+.sort-flex:nth-child(2n)
+{
+  margin-left: 5px;
+}
+.sort-flex:nth-child(3n)
+{
+  margin-left: 5px;
+}
 .hotels {
 
 }
@@ -1108,7 +1186,7 @@ iframe {
 }
 
 .hotels-list-character {
-  width: 130px;
+  width: 180px;
   height: 16px;
   display: flex;
   flex-direction: row;
@@ -1117,13 +1195,16 @@ iframe {
 }
 
 .hotels-list-character span {
-  margin-top: -30px;
-  margin-bottom: 10px;
+  margin-top: -35px;
+  margin-bottom: 15px;
 }
 
 .hotel-flex-11 p {
   margin-top: 25px;
+  letter-spacing: 0.05em;
+  margin-left: 5px;
 }
+
 
 .button-more-booking {
   display: flex;
@@ -1133,7 +1214,7 @@ iframe {
 }
 
 .button-more-booking a {
-  margin-top: -20px;
+  margin-top: -25px;
   margin-bottom: 30px;
 }
 
@@ -1162,7 +1243,6 @@ iframe {
   margin-right: 60px;
   margin-left: -60px;
   text-align: center;
-
 }
 
 .stock {
@@ -1191,7 +1271,7 @@ iframe {
   min-height: 25px;
   margin: 0;
   width: 137px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 132px;
 }
 
@@ -1203,10 +1283,21 @@ iframe {
 }
 
 .footer-copyright1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   min-height: 45px;
   width: 199px;
   margin-right: 100px;
-  margin-top: 50px;
+  margin-top: 40px;
+  
+}
+
+.footer-copyright1 svg
+{
+  width: 120px;
+  height: 50px;
 }
 
 .main-footer-1 .footer-hashtag1 {
@@ -1234,22 +1325,22 @@ iframe {
   text-align: center;
 }
 
-.footer-copyright1 .button1:hover,
-.footer-copyright1 .button1:focus {
-  color: #b6b4b5;
-}
+/*.footer-copyright1 .button-logo:hover,
+.footer-copyright1 .button-logo:focus {
+  fill:  #b6b4b5;
+}*/
 
 .filter-range {
   width: 330px;
-  margin-right: 54px; /* для демо */
-  margin-top: 29px;
+  margin-right: 48px; 
+  margin-top: 25px;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 .filter-range-title {
-  margin-bottom: 9px;
-
+  margin-bottom: 8px;
+  letter-spacing: -0.03em;
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
@@ -1422,10 +1513,29 @@ iframe {
 
 .copyright {
   display: block;
-  margin-top: 50px;
+  margin-top: 37px;
+  width: 455px;
+  min-height: 45px;
+  margin-right: 100px;
+ 
+}
+.copyright span
+{
+
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  top: 10px;
+
+}
+.copyright  svg
+{
+  width: 120px;
+  height: 50px;
 }
 
-.footer-copyright .button {
+.footer-copyright .button 
+{
   display: block;
   margin-right: 0;
 }
@@ -1445,19 +1555,16 @@ iframe {
   width: 150px;
   list-style: none;
   justify-content: space-between;
-  margin-top: 36px;
+  margin-top: 20px;
   padding: 0;
-  margin-left: -90px;
+  margin-left: -110px;
 
 }
-
 .social-button1:hover {
   background-color: #669ec0;
 }
 
 .social-button1:active {
-  /*color: #669ec0;
-    opacity: 0.3;*/
   background-color: #5496bd;
 }
 
