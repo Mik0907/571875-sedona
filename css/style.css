@@ -336,10 +336,16 @@ a {
   color: #FFFFFF;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+
 }
 
 .filter fieldset {
   border: none;
+}
+
+.filter fieldset:nth-child(3)
+{
+  margin-left: auto;
 }
 
 .filter legend {
@@ -530,13 +536,14 @@ input[type="checkbox"] + span {
   padding-top: 5px;
 }
 
-.button-more:hover {
-  background-color: #669ec0;
+.button-more:active{
+  background-color: #5496bd;
+  color: #ffffff;
 }
 
-.button-more:active {
-  background-color: #5496bd;
-  color: rgba(80, 62, 51, 0.3);
+.button-more:hover {
+  background-color: #669ec0;
+  color: white;
 }
 
 .hotels .button-booking {
@@ -1037,6 +1044,7 @@ input::placeholder {
   color: #a9a9a9;
   border: 0px;
   outline: none;
+  font-weight: bold;
 }
 
 .count:hover {
@@ -1157,13 +1165,13 @@ iframe {
   flex-direction: row;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .infrastructure-flex {
   margin-top: -15px;
   margin-left: 60px;
-  padding-top: 25px;
+  padding-top: 31px;
 }
 
 .infrastructure li {
@@ -1184,15 +1192,16 @@ iframe {
   justify-content: space-between;
   margin-left: 20px;
   width: 220px;
-  margin-top: 25px;
+  margin-top: 21px;
   letter-spacing: 0.02em;
 }
 
 .housing-flex {
   width: 129px;
-  margin-top: 25px;
-  margin-left: -230px;
-  padding-top: 25px;
+  margin-top: 0;
+  margin-left: 0;
+  padding-top: 30px;
+  padding-left: 4px;
 }
 .filter-option
 {
@@ -1211,9 +1220,10 @@ iframe {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-left: -260px;
+  margin-left: 0;
   width: 220px;
-  margin-top: 25px;
+  margin-top: 19px;
+  padding-left: 0px;
   letter-spacing: 0.02em;
 }
 
@@ -1255,7 +1265,7 @@ input[type="checkbox"] {
 .result p {
   height: 20px;
   width: 82px;
-  margin-left: 30px;
+  margin-left: 37px;
   margin-top: 35px;
 }
 
@@ -1574,8 +1584,7 @@ ul.stars li {
 
 .price-controls {
   position: relative;
-  min-height: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-size: 0;
   border: 2px solid #ffffff;
   border-radius: 2px;
@@ -1621,7 +1630,7 @@ ul.stars li {
 
 .range-controls {
   position: relative;
-  margin-bottom: 32px;
+  margin-bottom: 35px;
 }
 
 .range-controls .scale {
@@ -1829,7 +1838,7 @@ ul.stars li {
 .main-footer {
   width: 1200px;
   margin: auto;
-  background: #00800070;
+  /*background: #00800070;*/
   position: absolute;
   bottom: 0px;
   height: 120px;
