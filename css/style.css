@@ -1611,12 +1611,14 @@ ul.stars li {
   line-height: 38px;
   vertical-align: top;
   cursor: pointer;
+  padding-bottom: 10px;
 }
 
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
   padding-left: 65px;
+
 }
 
 .price-controls input {
@@ -1626,6 +1628,8 @@ ul.stars li {
   font: inherit;
   background: none;
   border: none;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .range-controls {
