@@ -1160,8 +1160,9 @@ iframe {
 }
 
 .infrastructure-flex {
-  margin-top: 25px;
+  margin-top: -15px;
   margin-left: 60px;
+  padding-top: 15px;
 }
 
 .infrastructure li {
@@ -1191,6 +1192,7 @@ iframe {
   width: 129px;
   margin-top: 25px;
   margin-left: -220px;
+  padding-top: 15px;
 }
 .filter-option
 {
@@ -1552,14 +1554,6 @@ ul.stars li {
 
 .social-button1 {
   color: #000000;
-}
-
-.logo-button:hover {
-  fill: #81b3d2;
-}
-
-.logo-button:active {
-  fill: #bdbbbc;
 }
 
 .footer-copyright1 {
