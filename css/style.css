@@ -380,6 +380,28 @@ a {
 .filter-input:disabled + label {
   color: #6a6a6a;
 }
+.checkbox-custom {
+  display: none;
+}
+
+.filter-item {
+  display: block;
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 5px;
+}
+input[type="checkbox"] + span {
+  background: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat; 
+  width: 10px;
+  height: 10px;
+  display: block;
+}
+.checkbox-custom[type="checkbox"]:checked + span {
+  background: url("../img/checkbox-on.svg"); 
+   background-repeat: no-repeat;
+}
+
 
 .filter-button {
 
@@ -421,6 +443,10 @@ a {
   width: 30px;
   height: 20px;
   margin-top: 30px;
+}
+.button-up-down img
+{
+  color: white;
 }
 .result .sort {
   list-style: none;
@@ -863,6 +889,7 @@ a {
 }
 input[type="button"]
 {
+
   background: url("../img/calendar.svg");
   background-repeat: no-repeat; 
   width: 27px;
@@ -897,7 +924,6 @@ input[type="button"]
 input[type="button"]
 {
   background: url("../img/calendar.svg");
-  fill: #cacaca;
   background-repeat: no-repeat; 
   width: 27px;
   height: 23px;
@@ -1066,35 +1092,43 @@ iframe {
 
 .infrastructure-flex {
 
-  margin-top: 28px;
+  margin-top: 25px;
   margin-left: 60px;
 }
 
 .infrastructure li {
   /*width: 226px;*/
-  min-height: 47px;
+  min-height: 37px;
   width: 220px;
 }
 
 .filter-option-flex-1 {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-left: 20px;
+  width: 220px;
+  min-height: 133px;
+  margin-top: 25px;
+  letter-spacing: 0.02em;
 }
 
 .housing-flex {
   width: 129px;
-  margin-top: 32px;
-  margin-left: -190px;
+  margin-top: 25px;
+  margin-left: -220px;
 }
 
 .filter-option-flex-2 {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin-left: -230px;
+  justify-content: space-between;
+  margin-left: -250px;
   width: 220px;
+   margin-top: 25px;
+  min-height: 120px;
+  letter-spacing: 0.02em;
 }
 input[type="checkbox"]
 {
@@ -1103,6 +1137,15 @@ input[type="checkbox"]
  
  background-image: url("../img/checkbox-on.svg") no-repeat; /* Фоновый рисунок */
  cursor: pointer;
+}
+.filter-option span
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-right: 15px;
+  padding-bottom: 13px;
+
 }
 .value {
 
@@ -1246,12 +1289,17 @@ input[type="checkbox"]
 
 .stock {
 
-  width: 100px;
+  width: 120px;
+  height: 30px;
   color: rgb(102, 102, 102);
   text-transform: uppercase;
   line-height: 1.5;
-  margin-bottom: 28px;
+  margin-bottom: 35px;
   background-color: #f2f2f2;
+  margin-left: -40px;
+  text-align: center;
+  padding-top: 5px;
+  letter-spacing: 0.03em;
 }
 
 .main-footer-1 {
@@ -1334,11 +1382,12 @@ input[type="checkbox"]
 }
 
 .filter-range {
-  width: 330px;
-  margin-right: 48px; 
+  width: 320px;
+  margin-right: 55px; 
   margin-top: 25px;
   color: #ffffff;
   text-transform: uppercase;
+  letter-spacing: -0.03em;
 }
 
 .filter-range-title {
@@ -1352,7 +1401,7 @@ input[type="checkbox"]
 .price-controls {
   position: relative;
 
-  height: 36px;
+  min-height: 36px;
   margin-bottom: 20px;
 
   font-size: 0;
@@ -1425,7 +1474,7 @@ input[type="checkbox"]
   top: -9px;
 
   width: 4px;
-  height: 4px;
+  min-height: 4px;
 
   background: #ababab;
   border: 8px solid #ffffff;
