@@ -50,7 +50,6 @@ a {
 }
 
 .picture::after {
-
   width: 100%;
   height: 273px;
   content: "";
@@ -80,14 +79,12 @@ a {
 
 .advantages .p2 {
   font-size: 14px;
-
   font-weight: normal;
   color: #333333;
   min-width: 600px;
   height: 1px;
   text-align: center;
   padding-bottom: 25px;
-
 }
 
 .features-list-21 {
@@ -286,7 +283,7 @@ a {
 }
 
 .search .button-find {
-  font-style: 21px;
+  font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
   color: #ffffff;
@@ -362,7 +359,6 @@ a {
   display: block;
   padding-left: 38px;
   position: relative;
- /* margin-bottom: 5px;*/
 }
 
 input[type="checkbox"] + span {
@@ -427,28 +423,28 @@ input[type="checkbox"] + span {
 .button-up-down img {
   color: white;
 }
-.button-up
-{
+
+.button-up {
   fill: #cacaca;
 }
-.button-up:hover
-{
+
+.button-up:hover {
   fill: #231f20;
 }
-.button-up:active
-{
+
+.button-up:active {
   fill: #81b3d2;
 }
-.button-down
-{
+
+.button-down {
   fill: #81b3d2;
 }
-.button-down:hover
-{
+
+.button-down:hover {
   fill: #231f20;
 }
-.button-down:active
-{
+
+.button-down:active {
   fill: #81b3d2;
 }
 
@@ -483,7 +479,6 @@ input[type="checkbox"] + span {
 
 .hotels-list {
   list-style: none;
-
 }
 
 .hotel {
@@ -1183,7 +1178,6 @@ iframe {
   justify-content: space-between;
   margin-left: 20px;
   width: 220px;
- /* min-height: 133px;*/
   margin-top: 25px;
   letter-spacing: 0.02em;
 }
@@ -1214,7 +1208,6 @@ iframe {
   margin-left: -250px;
   width: 220px;
   margin-top: 25px;
- /* min-height: 120px;*/
   letter-spacing: 0.02em;
 }
 
@@ -1505,6 +1498,7 @@ ul.stars li {
   margin-right: 100px;
   margin-top: 40px;
 }
+
 .footer-copyright2 {
   display: -webkit-box;
   display: -ms-flexbox;
